@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5023C;
+    position: fixed;
+    width: 100%;
+    margin-top:-10px; 
+    font-family: "Murecho", sans-serif;
+}
+
+ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    color: rgb(252, 246, 246);
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.4), rgb(0 0 0 / 0.8)), url(./img/ramen.png);
+    font-size: 30px;
+}
+
+.banner h1{
+    margin-top:300px;
+    font-family: "Reggae One", system-ui;
+}
+h2{
+    font-family: "Reggae One", system-ui;
+}
+p{
+    font-family: "Murecho", sans-serif;
+}
+
+.titulo{
+    justify-items: center;
+    font-family: "Reggae One", system-ui;
+    font-size: 1.5rem;
+}
+
+.contenido {
+
+    padding: 20px;
+
+}
+.menu{
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#comida{
+    flex: 1 1 45%; /* ocupa el 45% del ancho, permite que entren 2 por fila */
+    padding: 10px;
+    display: grid;
+    border:2px solid #E8EAED;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+#comida:hover {
+    border-color: #E5023C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.menu img{
+    width:250px;
+}
+
+span{
+    font-family: "Reggae One", system-ui;
+}
+
+.contenido article img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+.nosotros{
+    display: flex;
+    width:500px;
+}
+.contenedor_nosotros{
+    display: flex;
+    width: 100%;
+}
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+}
+
+.redes-sociales img {
+
+    width: 30px;
+
+    margin: 0 10px;
+
+}
+.cortinas{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: -5px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.noren_1{
+    width: 50%;
+    
+}
+.noren_2{
+    width: 50%;
+}
