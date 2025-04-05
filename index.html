@@ -19,23 +19,23 @@
 
     <header>
         <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Menú</a></li>
+            <ul class="lista">
+                <li><a href="#banner">Inicio</a></li>
+                <li><a href="#titulo">Menú</a></li>
             </ul>
             <div class="logo">
                 <img src="./img/logo.png" width="100px" alt="Logo de la Empresa">
             </div>
             <ul>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#titulo_sobrenosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
 
 
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="banner">
             <h1>Bienvenido a Calico Izayaka</h1>
             <p>Un viaje gastronómico a Japón, sin salir de Chile..</p>
     
@@ -45,7 +45,7 @@
             <img src="./img/izayaka.png" alt="Cortina 2" class="noren_2">
         </div>
         <section class="contenido">
-            <div class="titulo">
+            <div class="titulo" id="titulo">
                 <h1> Menú</h1>
             </div>
             <article class="menu">
@@ -80,8 +80,8 @@
     
             <article>
     
-            <h2>Sobre Nosotros</h2>
-            <div class="contenedor_nosotros"></div>
+            <h2 class="titulo_sobrenosotros" id="titulo_sobrenosotros">Sobre Nosotros</h2>
+            <div class="contenedor_nosotros">
                 <div class="nosotros">
                     <p>Fundado por Kathia Cid, una joven apasionada por la cultura japonesa, nuestro izakaya en Concepción nace del deseo de compartir la verdadera esencia de Japón en Chile. Cada plato, cada detalle y cada gesto está inspirado en las tradicionales tabernas niponas, ofreciendo una experiencia auténtica, cálida y llena de sabor. Bienvenidos a un rincón de Japón, creado con alma chilena y corazón japonés.</p>
                     <img src="./img/kathia.png" width="200px" alt="kathia">
@@ -89,24 +89,25 @@
                 <video width="500" controls autoplay loop muted>
                     <source src="./img/videoplayback.mp4" type="video/mp4">
                 </video>
+            </div>
             </article>
         </section>
     
     </main>
 
-    <footer>
+    <footer id="contacto">
 
-    <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+    <p>Dirección:📍 Calle Sakura 123, Barrio Nipón, Concepción, Chile</p>
 
-    <p>Email: contacto@empresa.com</p>
+    <p>Email: calico@izayaka.com</p>
 
     <div class="redes-sociales">
 
-        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
 
-        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="./img/gorjeo.png" alt="X"></a>
 
-        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="./img/social.png" alt="Instagram"></a>
 
     </div>
 

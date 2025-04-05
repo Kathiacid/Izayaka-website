@@ -28,6 +28,8 @@ nav{
     width: 100%;
     margin-top:-10px; 
     font-family: "Murecho", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10;
 }
 
 ul{
@@ -41,7 +43,9 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-
+img{
+    border-radius: 8px;
+}
 .banner {
     text-align: center;
     height: 600px;
@@ -61,6 +65,7 @@ h2{
 }
 p{
     font-family: "Murecho", sans-serif;
+    margin-bottom: 5px;
 }
 
 .titulo{
@@ -106,13 +111,20 @@ span{
     height: auto;
 
 }
+.titulo_sobrenosotros{
+    text-align: center;
+    margin-top: 20px;
+}
 .nosotros{
     display: flex;
     width:500px;
+    gap: 30px;
 }
 .contenedor_nosotros{
     display: flex;
     width: 100%;
+    gap:50px;
+    justify-content: center;
 }
 footer {
 
@@ -125,6 +137,7 @@ footer {
     padding: 10px 0;
 
 }
+
 
 .redes-sociales img {
 
